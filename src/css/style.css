@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+:root {
+    --cor-principal: #181D68;
+    --cor-bg: #DAD0C9;
+    --cor-secundaria: #2C59CE;
+    --cor-terceiaria: #779CD6;
+    --cor-destaque: #7F5F4A;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.subtitle {
+  font-family: 'Lora', serif;
+}
+
+.container {
+  max-width: 1280px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: var(--cor-bg);
+}
+
+header .perfil {
+  display: flex;
+  width: 100%;
+  margin-top: 1vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.perfil .foto {
+  width: 300px;
+}
+
+.perfil .dados {
+  width: 100%;
+}
+
+.perfil .dados .title {
+  text-align: center;
+  font-size: 3em;
+  color: var(--cor-principal);
+}
+
+.perfil .dados .subtitle {
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+
+.perfil-dado-item {
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
